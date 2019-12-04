@@ -1,5 +1,6 @@
 # qukuai
 基于以太坊的应用开发实例
+本项目包含了Web3j对以太坊钱包功能的实现，常见的基本操作。
 
 环境安装：（windows 10 家庭版）
 1、安装Docker 
@@ -13,3 +14,5 @@ docker exec -it ethereum geth attach ipc:/tmp/geth.ipc
 
 启动ethereum：
 docker start ethereum
+
+
