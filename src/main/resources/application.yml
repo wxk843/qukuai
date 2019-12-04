@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: qukuaiweb
+server:
+  port: 8090
+#  servlet:
+#    context-path: /
+web3j:
+  client-address: http://192.168.99.100:8545
+  admin-client: true
+  httpTimeoutSeconds: 60000
+
+#swagger
+swagger:
+  service-host: localhost:8090
